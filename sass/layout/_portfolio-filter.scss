@@ -1,0 +1,17 @@
+.filter__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.filter__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 8px;
+}

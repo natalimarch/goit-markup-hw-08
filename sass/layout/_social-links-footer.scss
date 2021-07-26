@@ -1,0 +1,23 @@
+.social-links-footer {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 93px;
+}
+
+.social-links-footer__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
+  margin-bottom: 20px;
+}
+
+.social-links__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links-footer__item {
+  background-color: rgba(255, 255, 255, 0.1);
+}
