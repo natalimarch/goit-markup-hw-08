@@ -1,6 +1,22 @@
-.social-links {
-  display: flex;
-  justify-content: space-between;
+@media screen and (max-width: 767px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .social-links__link {

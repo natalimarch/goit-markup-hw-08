@@ -6,6 +6,8 @@
 }
 
 .footer__mail {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 
@@ -20,6 +22,8 @@
 }
 
 .footer__tel {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 
@@ -35,4 +39,18 @@
 
 .address__text {
   margin-bottom: 9px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__mail {
+    margin-left: 0;
+  }
+
+  .footer__tel {
+    margin-left: 0;
+  }
+
+  .address {
+    width: 230px;
+  }
 }

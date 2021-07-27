@@ -1,33 +1,96 @@
 .hero {
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/background-image.jpg);
-  background-size: cover;
-  background-color: var(--bg-image-color);
-  max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
-}
-
-.hero-section {
-  max-width: 700px;
-  margin: 0 auto;
 }
 
 .hero__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
+  font-size: 26px;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--main-bg-color);
+}
+
+.hero-section {
+  max-width: 360px;
+  margin: 0 auto;
 }
 
 .hero__button {
   margin-top: 30px;
 }
+
+// 480
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background-image-mobile.jpg);
+    background-size: cover;
+    background-color: var(--bg-image-color);
+  }
+}
+
+// 768
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background-image-tablet.jpg);
+    background-size: cover;
+    background-color: var(--bg-image-color);
+  }
+}
+
+// 1200
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/background-image-desktop.jpg);
+    background-size: cover;
+    background-color: var(--bg-image-color);
+  }
+}
+// .hero {
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(47, 48, 58, 0.4),
+//       rgba(47, 48, 58, 0.4)
+//     ),
+//     url(../images/background-image.jpg);
+//   background-size: cover;
+//   background-color: var(--bg-image-color);
+//   max-width: 1600px;
+//   padding-top: 200px;
+//   padding-bottom: 200px;
+//   text-align: center;
+// }
+
+// .hero-section {
+//   max-width: 700px;
+//   margin: 0 auto;
+// }
+
+// .hero__title {
+//   font-weight: 900;
+//   font-size: 44px;
+//   line-height: 1.4;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
+//   color: var(--main-bg-color);
+// }
