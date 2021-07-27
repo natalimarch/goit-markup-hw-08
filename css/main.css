@@ -1334,7 +1334,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-top: -15px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
   .filter__item {
     margin-top: 15px;
@@ -1345,7 +1345,13 @@ img {
   .filter__list {
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .filter__list {
+    padding-bottom: 50px;
   }
 }
 
