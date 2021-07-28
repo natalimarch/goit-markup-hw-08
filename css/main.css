@@ -687,7 +687,7 @@ img {
     margin-right: 10px;
     fill: currentColor;
   }
-  .site-nav-contacts__item {
+  .site-nav-contacts__item:first-child {
     margin-bottom: 10px;
   }
   .mail {
