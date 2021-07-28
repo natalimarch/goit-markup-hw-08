@@ -19,6 +19,12 @@
     }
   }
 
+  .burger-btn {
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    }
+  }
   .header-nav {
     display: flex;
     justify-content: space-between;
@@ -58,7 +64,6 @@
       width: 40px;
       height: 40px;
 
-      background: var(--main-bg-color);
       background-color: transparent;
       border: none;
       line-height: 0;

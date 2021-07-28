@@ -467,6 +467,9 @@ img {
     width: 24px;
     height: 16px;
   }
+  .burger-btn:hover, .burger-btn:focus {
+    fill: var(--accent-color);
+  }
   .header-nav {
     display: flex;
     justify-content: space-between;
@@ -501,7 +504,6 @@ img {
     right: 7px;
     width: 40px;
     height: 40px;
-    background: var(--main-bg-color);
     background-color: transparent;
     border: none;
     line-height: 0;
