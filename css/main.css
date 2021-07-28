@@ -500,10 +500,8 @@ img {
   }
   .mobile-menu__close-btn {
     position: absolute;
-    top: 12px;
-    right: 7px;
-    width: 40px;
-    height: 40px;
+    top: 21px;
+    right: 18px;
     background-color: transparent;
     border: none;
     line-height: 0;
