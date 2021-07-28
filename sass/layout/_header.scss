@@ -97,6 +97,12 @@
     letter-spacing: 0.02em;
 
     color: #212121;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      cursor: pointer;
+    }
   }
 
   .current {
@@ -117,6 +123,13 @@
     letter-spacing: 0.02em;
 
     color: #2196f3;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      cursor: pointer;
+      fill: var(--accent-color);
+    }
   }
 
   .mobile-menu-contacts__mail {
@@ -132,6 +145,13 @@
     letter-spacing: 0.02em;
 
     color: #757575;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      cursor: pointer;
+      fill: var(--accent-color);
+    }
   }
 
   .mobile-menu-social-links {
@@ -152,6 +172,13 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      cursor: pointer;
+      fill: var(--accent-color);
+    }
   }
 
   .mobile-menu-social-links__item:not(:last-child) {

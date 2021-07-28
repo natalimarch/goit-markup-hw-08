@@ -365,7 +365,7 @@ img {
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  :focus {
+  .modal-form__input:focus {
     border-color: var(--accent-color);
     outline: none;
   }
@@ -527,6 +527,10 @@ img {
     letter-spacing: 0.02em;
     color: #212121;
   }
+  .mobile-menu__link:hover, .mobile-menu__link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+  }
   .current {
     color: var(--accent-color);
     position: relative;
@@ -543,6 +547,11 @@ img {
     letter-spacing: 0.02em;
     color: #2196f3;
   }
+  .mobile-menu-contacts__tel:hover, .mobile-menu-contacts__tel:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+    fill: var(--accent-color);
+  }
   .mobile-menu-contacts__mail {
     display: block;
     margin-top: 32px;
@@ -554,6 +563,11 @@ img {
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: #757575;
+  }
+  .mobile-menu-contacts__mail:hover, .mobile-menu-contacts__mail:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+    fill: var(--accent-color);
   }
   .mobile-menu-social-links {
     display: flex;
@@ -571,6 +585,11 @@ img {
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+  }
+  .mobile-menu-social-links__link:hover, .mobile-menu-social-links__link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+    fill: var(--accent-color);
   }
   .mobile-menu-social-links__item:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
