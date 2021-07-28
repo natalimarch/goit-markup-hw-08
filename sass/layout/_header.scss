@@ -1,3 +1,7 @@
+.header {
+  border-bottom: 1px solid var(--header-border);
+}
+
 @media screen and (max-width: 767px) {
   .site-nav__list {
     display: none;
@@ -193,10 +197,6 @@
 
   .mobile-menu {
     display: none;
-  }
-
-  .header {
-    border-bottom: 1px solid var(--header-border);
   }
 
   .header-nav {
