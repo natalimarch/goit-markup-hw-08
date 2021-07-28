@@ -33,3 +33,10 @@ img {
 .list {
   list-style: none;
 }
+
+@media screen and (max-width: 479px) {
+  .person-img {
+    width: 100%;
+    height: auto;
+  }
+}
